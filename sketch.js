@@ -1,8 +1,28 @@
+/*var string = "Kobid A. Sharma"
+console.log(string)
+var number = 7
+console.log(number)
+var boolean = true 
+console.log(boolean)
+var object 
+console.log(object)
+object = null 
+console.log(object)*/
+var arr1=[1,2,3,4]
+console.log(arr1)
+var arr2=[7,"Abhishree Sharma",true,]
+console.log(arr2[2])
+var arr3=[[1,2],[3,4]]
+console.log(arr3[0][0])
+arr3.push("Abhishree Sharma");
+console.log(arr3[2])
+arr3.pop()
+console.log(arr3)
 const Engine = Matter.Engine;
 const World= Matter.World;
 const Bodies = Matter.Bodies;
 const Constraint = Matter.Constraint;
-
+var gamestate="onSling"
 var engine, world;
 var box1, pig1,pig3;
 var backgroundImg,platform;
